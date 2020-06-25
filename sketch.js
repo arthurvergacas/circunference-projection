@@ -60,9 +60,7 @@ function draw() {
 			line(linePos[0].x, linePos[0].y, linePos[1].x, linePos[1].y,)
 		}
 
-		noStroke();
-		let pos = getPosition(angle);
-		ellipse(pos.x, pos.y, 10);
+		
 
 	}
 
